@@ -31,7 +31,7 @@
 }
 
 .bg-color {
-    color: #F5F8FF; 
+    color: #F5F8FF;
 }
 
 .title-black {
@@ -196,4 +196,119 @@ ul a:nth-of-type(5) {
     width: 286px;
     z-index: 1;
     filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
+}
+
+/* offer container section */
+.offer-container h1 {
+    font-size: 4.1rem;
+    font-weight: bold;
+    margin-top: 135px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.offer-container p {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+/* image flex section*/
+.latest-deals {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+    margin-bottom: 50px;
+}
+
+.first-portion {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* left side img */
+.left-side-img {
+    position: relative;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.left-side-img img {
+    width: 100%;
+    display: block;
+    border-radius: inherit;
+}
+
+.primary-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: inherit;
+    z-index: 1;
+}
+
+/* right side img */
+.second-portion {
+    position: relative;
+}
+
+.second-portion img {
+    width: 100%;
+    display: block;
+    border-radius: 22px;
+}
+
+.shadow-three {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border-radius: 22px;
+    z-index: 1;
+}
+
+/* text on img */
+.text-on-small-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.25rem;
+    color: white;
+    width: max-content;
+    max-width: 100%;
+    text-align: center;
+    z-index: 2;
+}
+
+.text-on-small-img a {
+    color: white;
+    font-size: 1rem;
+    text-underline-offset: 4px;
+}
+
+/* text on img */
+.text-on-big-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.3rem;
+    color: white;
+    text-align: center;
+    z-index: 2;
+}
+
+.text-on-big-img a {
+    color: white;
+    font-size: 1.5rem;
+    text-underline-offset: 6px;
 }
