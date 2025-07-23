@@ -5,7 +5,7 @@
 
 
 /* primary font */
-.noto-serif> {
+.noto-serif {
     font-family: "Noto Serif", serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -15,7 +15,7 @@
 
 /* secondery font */
 
-.inter> {
+.inter {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
@@ -31,7 +31,7 @@
 }
 
 .bg-color {
-    /* color: #F5F8FF; */
+    color: #F5F8FF; 
 }
 
 .title-black {
@@ -77,6 +77,10 @@ ul a:nth-of-type(5) {
     font-weight: 400;
 }
 
+ul a:nth-of-type(5) {
+    margin-right: 20px;
+}
+
 
 .banner {
     display: flex;
@@ -90,6 +94,7 @@ ul a:nth-of-type(5) {
 .banner h1 {
     font-size: 4.1rem;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .banner p {
@@ -123,6 +128,8 @@ ul a:nth-of-type(5) {
     grid-template-columns: repeat(4, auto);
     justify-content: center;
     gap: 50px;
+    color: #000000;
+    margin-bottom: 200px;
 }
 
 .card-container h1 {
@@ -154,4 +161,39 @@ ul a:nth-of-type(5) {
 
 .card-container a {
     text-decoration: none;
+}
+
+/* plants-lover */
+.plants-lover {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 220px;
+}
+
+.plants-lover h1 {
+    font-size: 4.1rem;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #000000;
+}
+
+.plants-lover ul li {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.img-floating {
+    position: relative;
+    display: inline-block;
+}
+
+#badge {
+    position: absolute;
+    top: -110px;
+    right: -110px;
+    width: 286px;
+    z-index: 1;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.25));
 }
