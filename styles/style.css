@@ -31,7 +31,7 @@
 }
 
 .bg-color {
-    color: #F5F8FF;
+    /* color: #F5F8FF; */
 }
 
 .title-black {
@@ -61,7 +61,7 @@ nav a {
     text-decoration: none;
     list-style: none;
     color: black;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: bold;
     font-family: "Inter", sans-serif;
 }
@@ -88,11 +88,70 @@ ul a:nth-of-type(5) {
 }
 
 .banner h1 {
-    font-size: 65px;
+    font-size: 4.1rem;
     font-weight: bold;
 }
 
 .banner p {
-    font-size: 22px;
+    font-size: 1.4rem;
     font-weight: 400;
+}
+
+/* container-title */
+.container-title {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+.container-title h1 {
+    font-size: 3.2rem;
+    font-weight: bold;
+    font-family: "Noto Serif", serif;
+}
+
+.container-title p {
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+}
+
+/* card-container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    gap: 50px;
+}
+
+.card-container h1 {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-top: 30px;
+}
+
+.card-container p {
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 10px;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    color: white;
+    background-color: #E95A08;
+    font-family: "Inter", sans-serif;
+    padding: 10px 90px;
+    border: none;
+    margin-top: 20px;
+}
+
+.card-container a {
+    text-decoration: none;
 }
