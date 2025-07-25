@@ -488,7 +488,7 @@ footer ul li {
         flex-direction: row;
         justify-content: space-between;
         padding: 10px 20px;
-        margin: 5px 0 0 0;
+        margin: 0 0;
     }
 
     .nav-links {
@@ -496,7 +496,7 @@ footer ul li {
     }
 
     .cart {
-        gap: 5px;
+        gap: 6px;
     }
 
     .nav-left img {
