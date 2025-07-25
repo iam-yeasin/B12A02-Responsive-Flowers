@@ -615,6 +615,20 @@ footer ul li {
         display: none;
     }
 
+    .img-floating {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+
+    .img-floating img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+    }
+
     /* Latest Deals Section */
     .offer-container h1 {
         font-size: 1.5rem;
